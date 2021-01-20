@@ -605,8 +605,6 @@ var prompts_and_responses = {
 
   //'boltzmann' : [],
 
-  //'maxwell' : ['Maxwell\'s equations unified the theories of electricity, magnetism, and optics in one fell swoop.'],
-
   //'equipartition' : ['Without the equipartition theorum, temperature would have no immediate, physically significant meaning.'],
 
   'degrees of freedom' : ['\"Degrees of freedom\" are all the independent ways the components of a system can contain energy. For example, a monatomic ideal gas has three degrees of freedom, for the three possible independent directions in which the molecules can have velocity (and therefore kinetic energy).'],
@@ -651,7 +649,7 @@ var prompts_and_responses = {
 
   'triple point' : ['The triple point of a substance is a specific pressure and temperature at which the solid, liquid, and gas phases of that substance in pure form are in equilibrium with each other.', 'At pressures lower than the triple point, substances in solid form that are heated sufficiently will sublimate directly into a gas; at low enough pressures, liquid just doesn\'t exist.'],
 
-  //'vaporization' : [],
+  //'vaporization' : ['The transition from the liquid phase to the gaseous phase is called vaporization.'],
 
   //'vaporize' : [],
 
