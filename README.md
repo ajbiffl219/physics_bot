@@ -33,7 +33,9 @@ After the prompt is a colon, and then there is a lot of text surrounded by squar
 
 and then a comma. This represents one of the possible responses the bot will have when it chooses to respond to the keyword prompt 'bow shock.' An important thing to note is that whenever you see something that looks like \" (or \') inside of the single quotes, read that as just being " (or ') - for example, the example above (the first 'bow shock' response) will be entered into a chat as:
 
+----------------------------------------------------------------------------------------------------
 "Bow shock" in astrophysics is the boundary geometry of a body's magnetosphere interacting with an ambient plasma such as the solar wind.
+----------------------------------------------------------------------------------------------------
 
 without the single quotes and backslashes. 
 
@@ -42,11 +44,13 @@ Any prompts that have two forward slashes, //, is currently inactive - in Javasc
 
 At the end of the prompt and response list will be the closing squiggly and a semicolon, followed by the last line of the file:
 
+----------------------------------------------------------------------------------------------------
   .
   .
   .
   };
 module.exports = {prompts_and_responses}; 
+----------------------------------------------------------------------------------------------------
 
 
 This line merely indicates that the entire object, the thing called prompts_and_responses up at the top of the file, is up for grabs for other Javascript files to read and use. 
