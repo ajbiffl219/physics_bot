@@ -605,7 +605,7 @@ var prompts_and_responses = {
 
   //'boltzmann' : [],
 
-  //'maxwell' : [],
+  //'maxwell' : ['Maxwell\'s equations unified the theories of electricity, magnetism, and optics in one fell swoop.'],
 
   //'equipartition' : ['Without the equipartition theorum, temperature would have no immediate, physically significant meaning.'],
 
