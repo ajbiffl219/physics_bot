@@ -463,7 +463,7 @@ var prompts_and_responses = {
 
   //'water' : [],
 
-  //'iron' : ['The most stable nucleus is iron, which has the highest nuclear binding energy per nucleon of any element.', 'The Curie temperature for iron is 1043 Kelvin (1418 Farenheit).'],
+  //'iron' : ['The most stable nucleus is iron, which has the highest nuclear binding energy per nucleon of any element.', 'The Curie temperature for iron is 1,043 Kelvin (1418 Farenheit).'],
 
   //'uranium' : [],
 
@@ -803,15 +803,15 @@ var prompts_and_responses = {
 
   //'remanence' : [],
 
-  //'ferromagnet' : ['The Curie temperature for iron is 1043 Kelvin (1418 Farenheit).', 'When heated enough, all ferromagnetic materials lose their ferromagnetism and behave like paramagnets - the temperature of this phase change is called the \"Curie point\" or \"Curie temperature\"'],
+  //'ferromagnet' : ['The Curie temperature for iron is 1,043 Kelvin (1,418 Farenheit).', 'When heated enough, all ferromagnetic materials lose their ferromagnetism and behave like paramagnets - the temperature of this phase change is called the \"Curie point\" or \"Curie temperature\"'],
 
   'paramagnet' : ['Under very specific circumstances, paramagnets can actually have negative temperature '],
 
-  'curie temperature' : ['The Curie temperature is the temperature at which ferromagnetic materials lose their ferromagnetic properties, and begin to behave like paramagnets.', 'The Curie temperature for iron is 1043 Kelvin (1418 Farenheit).'],
+  'curie temperature' : ['The Curie temperature is the temperature at which ferromagnetic materials lose their ferromagnetic properties, and begin to behave like paramagnets.', 'The Curie temperature for iron is 1,043 Kelvin (1,418 Farenheit).'],
 
-  'curie point' : ['The Curie temperature is the temperature at which ferromagnetic materials lose their ferromagnetic properties, and begin to behave like paramagnets.', 'The Curie temperature for iron is 1043 Kelvin (1418 Farenheit).'],
+  'curie point' : ['The Curie temperature is the temperature at which ferromagnetic materials lose their ferromagnetic properties, and begin to behave like paramagnets.', 'The Curie temperature for iron is 1,043 Kelvin (1,418 Farenheit).'],
 
-  'curie' : ['The Curie temperature for iron is 1043 Kelvin (1418 Farenheit).', 'Marie Curie (1867-1934) is the only person in history to have won a Nobel prize in two different fields (chemistry and physics).', 'Marie Curie (1867-1934) is the only person in history to have won a Nobel prize in two different fields (physics in 1903, for work she and her husband carried out regarding ionizing radiation, and chemistry in 1911 for her discovery of the elements radium and polonium, among other things).'],
+  'curie' : ['The Curie temperature for iron is 1,043 Kelvin (1418 Farenheit).', 'Marie Curie (1867-1934) is the only person in history to have won a Nobel prize in two different fields (chemistry and physics).', 'Marie Curie (1867-1934) is the only person in history to have won a Nobel prize in two different fields (physics in 1903, for work she and her husband carried out regarding ionizing radiation, and chemistry in 1911 for her discovery of the elements radium and polonium, among other things).'],
 
   //'induction' : [],
 
