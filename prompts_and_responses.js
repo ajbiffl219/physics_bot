@@ -649,7 +649,7 @@ var prompts_and_responses = {
 
   'triple point' : ['The triple point of a substance is a specific pressure and temperature at which the solid, liquid, and gas phases of that substance in pure form are in equilibrium with each other.', 'At pressures lower than the triple point, substances in solid form that are heated sufficiently will sublimate directly into a gas; at low enough pressures, liquid just doesn\'t exist.'],
 
-  //'vaporization' : ['The transition from the liquid phase to the gaseous phase is called vaporization.'],
+  'vaporization' : ['The transition from the liquid phase to the gaseous phase is called vaporization.'],
 
   //'vaporize' : [],
 
