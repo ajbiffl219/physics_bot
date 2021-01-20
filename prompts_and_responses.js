@@ -649,6 +649,8 @@ var prompts_and_responses = {
 
   //'critical point' : [],
 
+  'triple point' : ['The triple point of a substance is a specific pressure and temperature at which the solid, liquid, and gas phases of that substance in pure form are in equilibrium with each other.', 'At pressures lower than the triple point, substances in solid form that are heated sufficiently will sublimate directly into a gas; at low enough pressures, liquid just doesn\'t exist.'],
+
   //'vaporization' : [],
 
   //'vaporize' : [],
@@ -657,11 +659,11 @@ var prompts_and_responses = {
 
   //'lithify' : [],
 
-  //'sublimation' : [],
+  'sublimation' : ['\"Sublimation\" is a phase change in which a substance goes directly from a solid to  gas, without passing through the liquid phase.', 'At pressures lower than the triple point, substances in solid form that are heated sufficiently will sublimate directly into a gas; at low enough pressures, liquid just doesn\'t exist.'],
 
-  //'sublimate' : [],
+  'sublimate' : ['\"Sublimation\" is a phase change in which a substance goes directly from a solid to  gas, without passing through the liquid phase.', 'At pressures lower than the triple point, substances in solid form that are heated sufficiently will sublimate directly into a gas; at low enough pressures, liquid just doesn\'t exist.'],
 
-  //'deposition' : ['\"Deposition\" is the opposite of sublimation, and refers to a materials in a gas forming a solid without passing through the liquid phase."],
+  'deposition' : ['\"Deposition\" is the opposite of sublimation, and refers to a materials in a gas forming a solid without passing through the liquid phase.'],
 
   //'condensation' : [],
 
@@ -715,7 +717,7 @@ var prompts_and_responses = {
   
   //'brainpower' : [],
 
-  //'superconduct' : ['At low enough temperature, some materials are superconducting. In this state, all the electrons in a material behave as if they were a single, dissipate electron that moves as one.'],
+  'superconduct' : ['At low enough temperature, some materials are superconducting. In this state, all the electrons in a material behave as if they were a single, dissipate electron that moves as one.'],
 
   //'san andreas' : ['Based on current tectonic trends, it is estimated that in approximately a billion years Los Angeles will be somewhere in the vicinity of Anchorage, Alaska.'],
 
