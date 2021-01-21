@@ -6,6 +6,3 @@ var factoids = {
 
 };
 module.exports = {factoids}; 
-
-
-const factoids = require('./physics_bot/factoids.js').factoids;
