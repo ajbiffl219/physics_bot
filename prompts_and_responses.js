@@ -583,7 +583,7 @@ var prompts_and_responses = {
 
   //'sweat' : [],
 
-  //'quantum' : ['Quantum mechanics tells us that nothing is ever certain. In a universe literally defined by uncertainty, the best we can do is try our best to decrease it.', 'Fun Fact: If you throw a tennis ball against a wall for all eternity, eventually the ball will phase right through the wall and continue out the other side.', 'Schr\xF6dinger\'s cat, the famous dead-and-alive cat in a box so often used to explain the quantum principle of superposition, was originally stated by Erwin Schr\xF6dinger as an attempt to refute quantum mechanics for being so ridiculous.', ],
+  'quantum' : ['Quantum mechanics tells us that nothing is ever certain. In a universe literally defined by uncertainty, the best we can do is try our best to decrease it.', 'Fun Fact: If you throw a tennis ball against a wall for all eternity, eventually the ball will phase right through the wall and continue out the other side.', 'Schr\xF6dinger\'s cat, the famous dead-and-alive cat in a box so often used to explain the quantum principle of superposition, was originally stated by Erwin Schr\xF6dinger as an attempt to refute quantum mechanics for being so ridiculous.', 'In 1792, English maker of fine porcelain Thomas Wedgewood noticed that all of his ovens began to glow red-hot at the same temperature, independent of their sizes and shapes. This was the first documented notice of the connection between color and temperature, which led to the discoveries of thermal radiation, blackbodies, and eventually, to quantum mechanics.'],
 
   //'brownian' : [],
 
@@ -633,15 +633,15 @@ var prompts_and_responses = {
 
   //'fairness function' : [],
 
-  //'thermal velocity' : [],
+  'thermal velocity' : ['\"Thermal velocity\" is the average speed of the molecules in a substance due to their thermal energy'],
 
-  //'thermal radiation' : [],
+  'thermal radiation' : ['In 1792, English maker of fine porcelain Thomas Wedgewood noticed that all of his ovens began to glow red-hot at the same temperature, independent of their sizes and shapes. This was the first documented notice of the connection between color and temperature, which led to the discoveries of thermal radiation, blackbodies, and eventually, to quantum mechanics.', 'Any and all objects warmer than absolute zero emit light at all frequencies, with a precise, single-valued, asymmetric peak corresponding to the object\'s temperature.', 'If a body increases in temperature, it begins emitting thermal radiation at a higher intensity at all wavelengths'],
 
-  //'absolute temperature' : [],
+  'absolute temperature' : ['The technical definition of temperature is \"one divided by the rate of change of entropy with respect to internal energy.\"', 'Of the three most predominantly-used temperature scales, only the Kelvin scale is an \"absolute\" scale, meaning that zero Kelvin corresponds to exactly zero thermal kinetic energy', 'The Kelvin scale is the \"absolute\" equivalent of the Celsius temperature scale (where zero Kelvin is -273.15 Celsius), while the \"Rankine\" scale is the absolute equivalent of Farenheit (where zero Rankine is -459.67 Farenheit).', 'Absolute temperature gives an approximate measure of the average kinetic energy of a substance.', '\"Temperature\" is a somewhat abstract measurement, but absolute temperature can be related directly to the average thermal kinetic energy of a substance.', '\"Temperature\" is a somewhat abstract measurement, but absolute temperature can be related directly to the average thermal kinetic energy of a substance. That\'s why absolute temperature is the one in all the equations.'],
 
   //'vapor pressure' : [],
 
-  'temperature' : ['The technical definition of temperature is \"one divided by the rate of change of entropy with respect to internal energy.\"', 'Of the three most predominantly-used temperature scales, only the Kelvin scale is an \"absolute\" scale, meaning that zero Kelvin corresponds to exactly zero thermal kinetic energy', 'The Kelvin scale is the \"absolute\" equivalent of the Celsius temperature scale (where zero Kelvin is -273.15 Celsius), while the \"Rankine\" scale is the absolute equivalent of Farenheit (where zero Rankine is -459.67 Farenheit).', 'The Farenheit and Celsius temperature scales are equivalent at exactly negative forty degrees.', 'Temperature gives an approximate measure of the average kinetic energy of a substance.', 'Humans do not detect temperature. Instead, they detect heat transfer.', 'Humans do not detect temperature. Instead, they detect heat transfer. Consider a metal object and a wooden object sitting in the same room. After a long while, both objects are the same temperature (they are in \"thermal equilibrium\" with the room), but the metal object feels much colder, because metal conducts heat faster than wood.'],
+  'temperature' : ['The technical definition of temperature is \"one divided by the rate of change of entropy with respect to internal energy.\"', 'Of the three most predominantly-used temperature scales, only the Kelvin scale is an \"absolute\" scale, meaning that zero Kelvin corresponds to exactly zero thermal kinetic energy', 'The Kelvin scale is the \"absolute\" equivalent of the Celsius temperature scale (where zero Kelvin is -273.15 Celsius), while the \"Rankine\" scale is the absolute equivalent of Farenheit (where zero Rankine is -459.67 Farenheit).', 'The Farenheit and Celsius temperature scales are equivalent at exactly negative forty degrees.', 'Absolute temperature gives an approximate measure of the average kinetic energy of a substance.', 'Humans do not detect temperature. Instead, they detect heat transfer.', 'Humans do not detect temperature. Instead, they detect heat transfer. Consider a metal object and a wooden object sitting in the same room. After a long while, both objects are the same temperature (they are in \"thermal equilibrium\" with the room), but the metal object feels much colder, because metal conducts heat away from your skin faster than wood.', '\"Temperature\" is a somewhat abstract measurement, but absolute temperature can be related directly to the average thermal kinetic energy of a substance.', '\"Temperature\" is a somewhat abstract measurement, but absolute temperature can be related directly to the average thermal kinetic energy of a substance. That\'s why absolute temperature is the one in all the equations.'],
 
   'absolute zero' : ['Heisenberg\'s uncertainty principle is one of the reasons you can never cool something down to absolute zero temperature - quantum fluctuations will always heat the material up, just a little bit.'],
 
@@ -1019,7 +1019,7 @@ var prompts_and_responses = {
 
   'electronvolt' : ['An electron volt [eV] is the energy an electron acquires as it moves through a voltage increase of one Volt.'],
 
-  //'calorie' : [],
+  //'calorie' : ['Fun Fact: a food calorie is the energy required to raise the temperature of one liter of water by one degree Celsius'],
 
   //' si' : [],
 
