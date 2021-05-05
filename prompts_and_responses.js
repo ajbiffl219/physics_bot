@@ -153,37 +153,15 @@ var prompts_and_responses = {
 
   //'atmospheric drag' : [],
 
-  'habitable zone' : ['When the Sun becomes a red giant, the Earth will be engulfed, and a new habitable zone will form between 49.4 and 71.4 AU, within the bounds of the Kuiper Belt.'],
-
-  'hydrogen burning limit' : ['The lower bound of stellar masses, about 0.08 solar masses, is often referred to as the \"hydrogen burning limit.\" Below this mass, bodies aren\'t massive enough to sustain thermonuclear fusion in their cores.'],
-
-  'sun' : ['Upon \"burning\" the last of its hydrogen fuel in some 7.59 billion years, the Sun will begin to collapse, increasing the pressure in its core and igniting helium fusion. It will re-expand under the pressure of this new fusion fuel, increasing in size by around 256 times (and engulfing Mercury, Venus, and the Earth in the process). The average energy of light it releases will decrease, shifting its emission spectrum toward the red - it will become a \"red giant.\"', 'The Sun, after expending all of its helium fuel as a red giant, will collapse into a white dwarf, about 60% of its original mass compressed into approximately the volume of the Earth. The white dwarf will cool until it is spent, and all that remains will be a cold, dark stellar remnant called a \"black dwarf.\"', 'When the Sun becomes a red giant, the Earth will be engulfed, and a new habitable zone will form between 49.4 and 71.4 AU, within the bounds of the Kuiper Belt.'],
-
   //'centaurus' : [],
 
   //'centauri' : [],
 
-  //'cygnus' : ['Cygnus is a constellation __BLAH BLAH__', 'The x-ray source Cygnus X-1, the brightest x-ray source in the Cygnus constellation, was the first object widely accepted to be a black hole.', 'Cygnus X-1, the first object widely accepted to be a black hole, is a so-called \"stellar mass black hole\" (meaning it is the remnant of a very large main sequence star, as opposed to something else). Despite its name, it weighs around 14.8 times as much as the Sun.', 'The Cygnus X-1 binary system consists of a bright x-ray emission source (a black hole) and a large blue star.', 'A combination of radio, optical, and x-ray data has revealed that the Cygnus X-1 black hole is spinning at near its maximum rate (any faster and its ergosphere, and everything inside it, would be moving faster than the speed of light).'],
+  //'cygnus' : ['Cygnus is a constellation __BLAH BLAH__', 'Cygnus X-1, the first object widely accepted to be a black hole, is a so-called \"stellar mass black hole\" (meaning it is the remnant of a very large main sequence star, as opposed to something else). Despite its name, it weighs around 14.8 times as much as the Sun.', 'The Cygnus X-1 binary system consists of a bright x-ray emission source (a black hole) and a large blue star.', 'A combination of radio, optical, and x-ray data has revealed that the Cygnus X-1 black hole is spinning at near its maximum rate (any faster and its ergosphere, and everything inside it, would be moving faster than the speed of light).'],
 
   //'cygni' : [],
 
-  'betelgeuse' : ['The constellation Orion\'s northeast shoulder is the red giant Betelgeuse - Orion\'s southwest leg is the blue supergiant Rigel. On exceptionally clear nights, the difference in their colors is visible to the naked eye.', 'The red giant star Betelgeuse, Orion\'s northeast shoulder, has a surface temperature of about 3400 Kelvin.'],
-
-  'rigel' : ['The constellation Orion\'s northeast shoulder is the red giant Betelgeuse - Orion\'s southwest leg is the blue supergiant Rigel. On exceptionally clear nights, the difference in their colors is visible to the naked eye.', 'The blue supergiant Rigel, the southeast leg of the constellation Orion, has a surface temperature of 10,100 Kelvin.'],
-
-  'polaris' : ['The Earth\'s axis wobbles between tilts of 22.1 and 24.5 degrees on a period of about 40,000 years - so in the year 22,021, the North Star won\'t really be the North star anymore. This wobble is called precession.'],
-
-  'alpha centauri' : ['The Alpha Centauri star system is the Sun\'s closest stellar neighbor, coming in at around 4.236 light years distant.','The Alpha Centauri star system is actually composed of three individual stars orbiting their mutual center of mass, along with an assortment of planets and smaller bodies.', 'If the Earth\'s orbit around the Sun was represented as a dime, Proxima Centauri (our closest stellar neighbor) would be a mile and a half away.'],
-
   'proxima centauri' : ['If the Earth\'s orbit around the Sun was represented as a dime, Proxima Centauri (our closest stellar neighbor) would be a mile and a half away.', 'The Alpha Centauri star system is the Sun\'s closest stellar neighbor, coming in at around 4.236 light years distant. Proxima Centauri is (at the moment) the closest of the three stars that make up this system, and orbits the other two at a distance of around 0.2 light years (a period of about 550,000 years)'],
-
-  'sagittarius a*' : ['Sagittarius A* is the brightest x-ray source in the Sagittarius constellation, generally thought to be a supermassive black hole resting at the core of our galaxy.'],
-
-  'sagittarius' : ['Sagittarius A* is the brightest x-ray source in the Sagittarius constellation, generally thought to be a supermassive black hole resting at the core of our galaxy.'],
-
-  'orion' : ['The constellation Orion\'s northeast shoulder is the red giant Betelgeuse - Orion\'s southwest leg is the blue supergiant Rigel. On exceptionally clear nights, the difference in their colors is visible to the naked eye.', 'The red giant star Betelgeuse, Orion\'s northeast shoulder, has a surface temperature of about 3400 Kelvin.'],
-
-  'north star' : ['The Earth\'s axis wobbles between tilts of 22.1 and 24.5 degrees on a period of about 40,000 years - so in the year 22,021, the North Star won\'t really be the North star anymore. This wobble is called precession.'],
 
   'red giant' : ['Stars of at least 0.6 solar masses will turn into red giants after the main sequence, where the predominant source of energy in their core is helium fusion into carbon and oxygen.', 'Thermonuclear fusion in red giants expends fuel much more rapidly than in main sequence stars, because helium fusion releases much less energy than hydrogen fusion.', 'Upon \"burning\" the last of its hydrogen fuel in some 7.59 billion years, the Sun will begin to collapse, increasing the pressure in its core and igniting helium fusion. It will re-expand under the pressure of this new fusion fuel, increasing in size by around 256 times (and engulfing Mercury, Venus, and the Earth in the process). The average energy of light it releases will decrease, shifting its emission spectrum toward the red - it will become a \"red giant.\"', 'The red giant star Betelgeuse, Orion\'s northeast shoulder, has a surface temperature of about 3400 Kelvin.'],
 
@@ -199,11 +177,15 @@ var prompts_and_responses = {
 
   //'blue giant' : [],
 
-  'supernova' : ['In very large stars, fusion continues until iron is produced in the core, at which point no more energy can be released by nuclear fusion. The star collapses rapidly, the spike in pressure fueling a supernova explosion.', 'During a supernova, heavier elements formed in the explosion are released into space, to be incorporated into subsequent generations of stars and planets.'],
+  //'maxwells law'
+  // 'amperes law'
+  // 'faradays law'
+  // 'faraday tensor'
+  // 'gauss law'
 
-  'stellar remnant' : ['\"Stellar remnants\" are objects such as white dwarfs and neutron stars that have exhausted their nuclear fuel supply.', 'Stellar remnants may indeed still have nuclear fusion taking place in their cores, but if their weight is not supported by that fusion, they are no longer considered stars.'],
+  'supernova' : ['During a supernova, heavier elements formed in the explosion are released into space, to be incorporated into subsequent generations of stars and planets.'],
 
-  'star' : ['Stars are massive balls of gas and plasma that radiate energy from their surfaces. This energy comes from thermonuclear fusion, made possible by the incredible pressure caused by their huge mass.', 'Stars are mainly distinguished by having sufficient thermonuclar fusion in their cores to balance the force of gravity and keep from collapsing.', 'Stellar interiors are perfectly balanced between gravity and pressure: inward-pressing gravity from the tremendous mass of the star and the outward-pushing pressure of thermonuclear fusion.', 'Low-mass stars are more common than high-mass stars, but because high-mass stars are much brighter, the majority of stars visible to the naked eye are larger than the Sun.', 'Stars range in mass from about 0.08 solar masses to a little over 100 solar masses. Smaller bodies aren\'t large enough to sustain fusion, and high radiation pressure would blow away the outer layers of larger bodies.', 'The lower bound of stellar masses, about 0.08 solar masses, is often referred to as the \"hydrogen burning limit.\" Below this mass, bodies aren\'t massive enough to sustain thermonuclear fusion in their cores.', 'The absolute magnitude of a star is the star\'s apparent magnitude as viewed from a distance of 10 parsecs.', 'During the \"main sequence\" of a star\'s life, thermonuclear radiation pressure balances the star\'s gravity. Hydrogen in its core gradually \"burns up,\" fusing into helium, until fusion slows down and the star begins to collapse.', 'The luminosity of a main-sequence star is roughly proportional to the fourth power of its mass.', 'The lifetime of stars ranges from around a million years for larger stars up to tens of trillions of years for smaller stars.', 'Stars of at least 0.6 solar masses will turn into red giants after the main sequence, where the predominant source of energy in their core is helium fusion into carbon and oxygen.', 'Thermonuclear fusion in red giants expends fuel much more rapidly than in main sequence stars, because helium fusion releases much less energy than hydrogen fusion.', 'In stars around the size of the Sun, electron degeneracy pressure prevents the star from reaching temperatures required to produce elements heavier than carbon and oxygen.', 'White dwarfs are remnants of small- and medium-sized stars in which electron degeneracy pressure provides the primary support against gravitational collapse.', 'In very large stars, fusion continues until iron is produced in the core, at which point no more energy can be released by nuclear fusion. The star collapses rapidly, the spike in pressure fueling a supernova explosion.', 'During a supernova, heavier elements formed in the explosion are released into space, to be incorporated into subsequent generations of stars and planets.', 'A star that has exploded in a supernova will leave behind either a neutron star or a black hole', 'Low-mass main sequence stars generally maintain a temperature of around 3 million Kelvin in their cores, in balance between gravitational collapse and thermonuclear radiation pressure.', 'Larger (more massive) stars are hotter, and radiate energy of shorter wavelengths.', 'The most common form of thermonuclear fusion in main sequence stars is called the \"pp-chain.\" Four protons fuse to form two deuterium nuclei, which each fuse with another proton to form helium-3 nuclei. The two helium-3 nuclei then fuse together to form a single helium-4 nucleus and two free protons, all releasing positrons, neutrinos, and massive amounts of photonic energy along the way.', 'Stars on the main sequence maintain incredibly stable temperatures through their lifetimes, owing to the high temperature- and density-dependence of fusion rates. If the core heats up too much, it expands, slowing nuclear fusion, which cools it back down, and if it cools too much, the core contracts, making fusion occur more quickly, and it warms back up.', 'In large stars, the catalytic \"CNO cycle\" of fusion releases the most energy during the main sequence. One carbon-12 nucleus goes in with four free protons, and after 4 fusings and 2 proton decays, the carbon-12 nucleus re-emerges alongside a helium-4 nucleus, two positrons, two neutrinos, and boatloads of photonic energy.', 'Most stars expend their deuterium fuel quickly, because deuterium fusion requires lower temperature than hydrogen fusion.', 'The most common stellar systems known are \"binaries:\" two stars orbiting each other.', 'Stars are named according to the constellation they reside in. Stars in a constellation are specified by the Greek form of the constellation and a Greek letter, in descending order of brightness. For example, Alpha Centauri is the brightest star in the Centaurus constellation, Beta Centauri the second brightest, and so on.', 'There are roughly 2 million stars within 150 parsecs of the Sun.', 'Stars and planets emit radiation as near-perfect blackbodies (meaning the exchange of energy is 100% efficient while absorbing and emitting light)'],
+  'star' : ['Stars are massive balls of gas and plasma that radiate energy from their surfaces. This energy comes from thermonuclear fusion, made possible by the incredible pressure caused by their huge mass.', 'Stars are mainly distinguished by having sufficient thermonuclar fusion in their cores to balance the force of gravity and keep from collapsing.', 'Stellar interiors are perfectly balanced between gravity and pressure: inward-pressing gravity from the tremendous mass of the star and the outward-pushing pressure of thermonuclear fusion.', 'Low-mass stars are more common than high-mass stars, but because high-mass stars are much brighter, the majority of stars visible to the naked eye are larger than the Sun.', 'Stars range in mass from about 0.08 solar masses to a little over 100 solar masses. Smaller bodies aren\'t large enough to sustain fusion, and high radiation pressure would blow away the outer layers of larger bodies.', 'The lower bound of stellar masses, about 0.08 solar masses, is often referred to as the \"hydrogen burning limit.\" Below this mass, bodies aren\'t massive enough to sustain thermonuclear fusion in their cores.', 'The absolute magnitude of a star is the star\'s apparent magnitude as viewed from a distance of 10 parsecs.', 'During the \"main sequence\" of a star\'s life, thermonuclear radiation pressure balances the star\'s gravity. Hydrogen in its core gradually \"burns up,\" fusing into helium, until fusion slows down and the star begins to collapse.', 'The luminosity of a main-sequence star is roughly proportional to the fourth power of its mass.', 'The lifetime of stars ranges from around a million years for larger stars up to tens of trillions of years for smaller stars.', 'Stars of at least 0.6 solar masses will turn into red giants after the main sequence, where the predominant source of energy in their core is helium fusion into carbon and oxygen.', 'Thermonuclear fusion in red giants expends fuel much more rapidly than in main sequence stars, because helium fusion releases much less energy than hydrogen fusion.', 'In stars around the size of the Sun, electron degeneracy pressure prevents the star from reaching temperatures required to produce elements heavier than carbon and oxygen.', 'White dwarfs are remnants of small- and medium-sized stars in which electron degeneracy pressure provides the primary support against gravitational collapse.', 'In very large stars, fusion continues until iron is produced in the core, at which point no more energy can be released by nuclear fusion. The star collapses rapidly, the spike in pressure fueling a supernova explosion.', 'During a supernova, heavier elements formed in the explosion are released into space, to be incorporated into subsequent generations of stars and planets.', 'A star that has exploded in a supernova will leave behind either a neutron star or a black hole', 'Low-mass main sequence stars generally maintain a temperature of around 3 million Kelvin in their cores, in balance between gravitational collapse and thermonuclear radiation pressure.', 'Larger (more massive) stars are hotter, and radiate energy of shorter wavelengths.', 'The most common form of thermonuclear fusion in main sequence stars is called the \"pp-chain.\" Four protons fuse to form two deuterium nuclei, which each fuse with another proton to form helium-3 nuclei. The two helium-3 nuclei then fuse together to form a single helium-4 nucleus and two free protons, all releasing positrons, neutrinos, and massive amounts of photonic energy along the way.', 'In large stars, the catalytic \"CNO cycle\" of fusion releases the most energy during the main sequence. One carbon-12 nucleus goes in with four free protons, and after 4 fusings and 2 proton decays, the carbon-12 nucleus re-emerges alongside a helium-4 nucleus, two positrons, two neutrinos, and boatloads of photonic energy.', 'Most stars expend their deuterium fuel quickly, because deuterium fusion requires lower temperature than hydrogen fusion.', 'The most common stellar systems known are \"binaries:\" two stars orbiting each other.', 'Stars are named according to the constellation they reside in. Stars in a constellation are specified by the Greek form of the constellation and a Greek letter, in descending order of brightness. For example, Alpha Centauri is the brightest star in the Centaurus constellation, Beta Centauri the second brightest, and so on.', 'There are roughly 2 million stars within 150 parsecs of the Sun.', 'Stars and planets emit radiation as near-perfect blackbodies (meaning the exchange of energy is 100% efficient while absorbing and emitting light)'],
 
   //'ergosphere' : [],
   
@@ -219,7 +201,7 @@ var prompts_and_responses = {
 
   //'pulsar' : [],
 
-  'neutron star' : ['A neutron star is kept from gravitational collapse by \"neutron degeneracy pressure\" - Pauli\'s exclusion principle as applied to the particles we all know and love, the neutron.', 'The internal pressure of neutron stars is so high that all of the electrons and protons inside them have fused into neutrons, giving these incredibly dense stellar remnants their name.'],
+  'neutron star' : ['The internal pressure of neutron stars is so high that all of the electrons and protons inside them have fused into neutrons, giving these incredibly dense stellar remnants their name.'],
 
   //'magnetar; : [],
 
@@ -254,9 +236,6 @@ var prompts_and_responses = {
   //'tidal wave' : [],
 
   'tidal force' : ['A tidal force is caused by the difference in gravitational attraction from the center of mass of a body to its surface', 'Tidal forces from Jupiter squish and squash the moon Europa, warming it enough to vaporize water under its surface.'],
-
-  'tide' : ['Generally, the strongest tidal forces in the Solar System are those of planets on their closest satellites. Tidal forces around the giant planets are so large that material closer to them was prevented entirely from coalescing into moons, instead forming the rings found around each of them.'],
-
   //'diurnal' : [],
 
   //'spherical harmonics' : [],
@@ -441,8 +420,6 @@ var prompts_and_responses = {
 
   //'in situ' : [],
 
-  'astronomy' : ['Many planetary properties can be determined more or less directly from observations, including orbit parameters, mass and mass distribution, size, rotation rate and direction, shape, temperature, magnetic field, and the structure and composition of its atmosphere and surface.'],
-
   //'outer space' : [],
 
   //'vacuum' : [],
@@ -565,7 +542,7 @@ var prompts_and_responses = {
 
   //'zeeman' : [],
 
-  'schrodinger' : ['Schr\xF6dinger\'s cat, the famous dead-and-alive cat in a box so often used to explain the principle of superposition, was originally stated by Erwin Schr\xF6dinger as an attempt to refute quantum mechanics for being so ridiculous.', 'The Schr\xF6dinger Wave Equation governs the world of the very small - it encapsulates conservation of energy, electromagnetic interactions, and wave-particle duality.'],
+  'schrodinger' : [, 'The Schr\xF6dinger Wave Equation governs the world of the very small - it encapsulates conservation of energy, electromagnetic interactions, and wave-particle duality.'],
 
   'heisenberg' : ['The Heisenberg uncertainty principle can be thought of as a way to reconcile wave-particle duality; you can never make a measurement precise enough to rule out one over the other.', 'The more precisely you want to measure a system\'s energy, the longer it will take to perform the measurement. This is time-energy uncertainty.', 'Heisenberg\'s uncertainty principle basically states that the position and momentum of a particle cannot simultaneously be measured with unlimited precision.', 'Heisenberg\'s un0certainty principle is an expression of the fact that a particle doesn\'t have a precisely-defined position or momenum at the same time.', 'Heisenberg\'s uncertainty principle is an expression of the fact that a particle doesn\'t have a precisely-defined position or momenum at the same time (the quantum-mechanical wave function for the particle cannot simultaneously be in an eigenstate of position and momentum).', 'Heisenberg\'s uncertainty principle is an expression of the fact that a particle doesn\'t have a precisely-defined position or momenum at the same time (position and momentum operators do not commute).', 'The Heisenberg uncertainty relation is partially responsible for the fact that you can never cool something down to eactly absolute zero.'],
 
@@ -579,7 +556,7 @@ var prompts_and_responses = {
 
   'thermonuclear' : ['Thermonuclear fusion is specifically fusion that occurs spontaneously at sufficiently high temperatures and pressures. In stars, this heat is supplied by the gravitational pressure in the center of their enormous mass, and in thermonuclear warheads, this heat is supplied by a smaller, atomic (fission-powered) warhead.', 'Fusion processes are only possible because nucleons can quantum tunnel through the potential barrier produced by Coulomb repulsion.', 'Thermonuclear fusion requires such high temperatures because only a tiny portion of molecules have sufficiently high kinetic energy to have a non-infinitesimal probability of quantum tunneling through the barrier produced by Coulomb repulsion.'],
 
-  'fusion' : ['The formation of atomic nuclei is known as \"nucleosynthesis.\"', 'Einstein\'s most famous equation, E = mc\u00B2, gives an easy way to calculate the energy released during the most common form of hydrogen fusion, the pp-chain. Subtract the mass of one helium-4 nucleus from the mass of four protons, and multiply by the speed of light squared!', 'Most stars expend their deuterium fuel quickly, because deuterium fusion requires lower temperatures than hydrogen fusion.'],
+  'fusion' : [, 'Most stars expend their deuterium fuel quickly, because deuterium fusion requires lower temperatures than hydrogen fusion.'],
 
   //'thermal fission' : [],
 
@@ -591,7 +568,7 @@ var prompts_and_responses = {
 
   //'sweat' : [],
 
-  'quantum' : ['Quantum mechanics tells us that nothing is ever certain. In a universe literally defined by uncertainty, the best we can do is try our best to decrease it.', 'Fun Fact: If you throw a tennis ball against a wall for all eternity, eventually the ball will phase right through the wall and continue out the other side.', 'Schr\xF6dinger\'s cat, the famous dead-and-alive cat in a box so often used to explain the quantum principle of superposition, was originally stated by Erwin Schr\xF6dinger as an attempt to refute quantum mechanics for being so ridiculous.', 'In 1792, English maker of fine porcelain Thomas Wedgewood noticed that all of his ovens began to glow red-hot at the same temperature, independent of their sizes and shapes. This was the first documented notice of the connection between color and temperature, which led to the discoveries of thermal radiation, blackbodies, and eventually, to quantum mechanics.'],
+  'quantum' : ['Quantum mechanics tells us that nothing is ever certain. In a universe literally defined by uncertainty, the best we can do is try our best to decrease it.', ],
 
   //'brownian' : [],
 
@@ -629,11 +606,9 @@ var prompts_and_responses = {
 
   //'ergodic' : [],
 
-  'adiabat' : ['In thermodynamics, an \"adiabatic\" process is one in which no heat is exchanged into or out of the system.', 'Adiabatic processes result in no change in entropy, and are therefore completely reversible.'],
-
   'superadiabatic' : ['A \"superadiabatic\" lapse rate in atmospheric science refers to a temperature gradient that is steeper than the theoretical adiabatic lapse rate.', 'In fluids with a superadiabatic lapse rate, convection is generally extremely efficient at transporting energy through the system and the lapse rate will fall to or below the regular adiabatic level. Substantial superadiabatic gradients are only possible when convection is suppressed by changes in mean molecular mass with height or the presence of boundaries that prevent fluid flow.'],
 
-  'entropy' : ['Entropy is often described as a measure of the \"disorder\" of a system, but a better description is that it gives the \"likelihood\" of a configuration of particles in a system.', 'The Second Law of Thermodynamics states that the entropy of the universe tends to increase. Entropy can be understood as the likelihood of a system, so the universe is always tending toward its most likely configuration.', 'The Second Law of Thermodynamics states that the entropy of the universe tends to increase. Entropy can be understood as the likelihood of a system, so the universe is always tending toward its most likely configuration - a cold, isotropic, diffuse gas with no stars, no planets, and no life. This inevitable endpoint is referred to as the \"heat death\" of the universe.', 'A good way to think about entropy is considering how many ways there are to flip a hundred coins and get all heads, and how many ways there are to get fifty heads and fifty tails. Continuing to flip all the coins, over time they approach an equal number of heads and tails, and stay around there going forward. That \"number of ways\" to arrange the coins with a given number of heads and tails is directly related to entropy.', 'There are three predominant modes of heat transfer: conduction, convection, and radiation.'],
+  'entropy' : ['Entropy is often described as a measure of the \"disorder\" of a system, but a better description is that it gives the \"likelihood\" of a configuration of particles in a system.', 'The Second Law of Thermodynamics states that the entropy of the universe tends to increase. Entropy can be understood as the likelihood of a system, so the universe is always tending toward its most likely configuration.', 'The Second Law of Thermodynamics states that the entropy of the universe tends to increase. Entropy can be understood as the likelihood of a system, so the universe is always tending toward its most likely configuration - a cold, isotropic, diffuse gas with no stars, no planets, and no life. This inevitable endpoint is referred to as the \"heat death\" of the universe.', 'A good way to think about entropy is considering how many ways there are to flip a hundred coins and get all heads, and how many ways there are to get fifty heads and fifty tails. Continuing to flip all the coins, over time they approach an equal number of heads and tails, and stay around there going forward. That \"number of ways\" to arrange the coins with a given number of heads and tails is directly related to entropy.'],
 
   //'enthalpy' : [],
 
@@ -871,8 +846,6 @@ var prompts_and_responses = {
 
   //'kinetic energy' : [],
 
-  'potential energy' : ['Potential energy is for the most part one of those things, like position, where no matter what \"zero\" is said to be, behaves exactly the same.', 'Potential energy is for the most part one of those things, like position, where no matter what \"zero\" is said to be, it behaves exactly the same. That said, traditionally, \"zero\" energy is the state of being at rest an infinite distance from everything else.', 'Potential energy is for the most part one of those things, like position, where no matter what \"zero\" is said to be, it behaves exactly the same. The one exception is in general relativity, where the absolute value of energy (including normally inconsequential things like relativistic mass energy) is fundamnetally tied to the curvature of spacetime.', 'Repulsive potential energy is positive, while attractive potential energy is negative. The phrase \"potential well\" captures this idea, as particles moving toward the source of an attractive potential can be considered to analagously be \"falling into a well.\"', 'The virial theorem states roughly that a bound system\'s negative gravitational potential energy is double its kinetic energy.'],
-
   //'mass energy' : [],
 
   //'electrical energy' : [],
@@ -944,9 +917,7 @@ var prompts_and_responses = {
   //'moment' : [],
 
   //'viscosity' : [],
-
-  'density' : ['The most common usage of the word \"density\" in physics is mass density, measured in MKS units with kilograms per cubic meter.', 'There are almost as many types of density as there are other units: mass density, charge density, energy density, number density, all of them some unit divided by the amount of space it occupies.', 'While the most commonly used forms of density are of some quantity divided by volume, there are also areal densities (for example, pressure is force per unit area), linear densities (e.g. the mass-per-unit-length of a string used to help find the frequency at which it vibrates), as well as densities per unit time (for example power, which is energy per unit time).'],
-
+  
   //'charge' : [],
 
   //'coulomb' : [],
@@ -969,8 +940,6 @@ var prompts_and_responses = {
 
   //'luminosity' : [],
 
-  'absolute magnitude' : ['Absolute magnitude is the apparent magnitude of an object as viewed from a distance of 10 parsecs.'],
-
   //'magnitude' : [],
 
   //'celsius' : [],
@@ -983,17 +952,13 @@ var prompts_and_responses = {
 
   //'farenheit' : [],
 
-  'uncertainty' : ['Uncertainty is a fundamental part of nature - no measurement is ever 100% precise.', 'The Heisenberg uncertainty principle can be thought of as a way to reconcile wave-particle duality; you can never make a measurement precise enough to rule out one or the other.', 'Time-energy uncertainty suggests that stable (\"ground\") states can have precisely-known energies, but unstable, higher-energy states will always have some amount of uncertainty in their total energy.', 'Time-energy uncertainty suggests that stable (\"ground\") states can have precisely-known energies, but unstable, higher-energy states will always have some amount of uncertainty in their total energy (the more unstable, the more precise).', 'The more precisely you want to measure a system\'s energy, the longer it will take to perform the measurement. This is time-energy uncertainty.', 'Heisenberg\'s uncertainty principle basically states that the position and momentum of a particle cannot simultaneously be measured with unlimited precision.', 'Heisenberg\'s uncertainty principle is an expression of the fact that a particle doesn\'t have a precisely-defined position or momenum at the same time.', 'Heisenberg\'s uncertainty principle is an expression of the fact that a particle doesn\'t have a precisely-defined position or momenum at the same time (the quantum-mechanical wave function for the particle cannot simultaneously be in an eigenstate of position and momentum).', 'Heisenberg\'s uncertainty principle is an expression of the fact that a particle doesn\'t have a precisely-defined position or momenum at the same time (position and momentum operators do not commute).', 'The Heisenberg uncertainty relation is partially responsible for the fact that you can never cool something down to eactly absolute zero.'],
-
-  'conservative' : ['A force field is conservative when the work done on a mass moving between two points in the field is independent of the particular path taken between those two paths.'],
+  'uncertainty' : [, 'The Heisenberg uncertainty principle can be thought of as a way to reconcile wave-particle duality; you can never make a measurement precise enough to rule out one or the other.', 'Time-energy uncertainty suggests that stable (\"ground\") states can have precisely-known energies, but unstable, higher-energy states will always have some amount of uncertainty in their total energy.', 'Time-energy uncertainty suggests that stable (\"ground\") states can have precisely-known energies, but unstable, higher-energy states will always have some amount of uncertainty in their total energy (the more unstable, the more precise).', 'The more precisely you want to measure a system\'s energy, the longer it will take to perform the measurement. This is time-energy uncertainty.'],
 
   //'potential field' : [],
 
   //'field line' : [],
 
   //'field' : [],
-
-  'gauge' : ['\"Gauge transformations\" are reflections of the fact that many abstract, mathematical constructs used to connect different physical quantities are ambiguous, and completely different combinations of values (that are gauge transformations of each other) can yield the same results and the same predictions.', 'Electric potential and magnetic potential are collectively a gauge-dependent system, meaning one can be changed arbitrarily without the predicted electric and magnetic fields changing, so long as the other is changed in concord.'],
 
   //'conservative' : [],
 
@@ -1002,8 +967,6 @@ var prompts_and_responses = {
   //'sine' : [],
 
   //'oscillat' : [],
-
-  'wave' : ['Everything is a wave sometimes.'],
 
   //'magic' : [], //magic orbits, maybe others
 
@@ -1023,17 +986,9 @@ var prompts_and_responses = {
 
   //'dyne' : [],
 
-  'power' : ['\"Power\" is a unit that measures energy per unit time, with SI units of Watts [W], equal to one joule per second.'],
-
-  'watt' : ['The Watt [W] is the SI unit of power, equal to one Joule per second.'],
-
   //'resistance' : [],
 
   //'ohm' : [],
-
-  'electronvolt' : ['An electron volt [eV] is the energy an electron acquires as it moves through a voltage increase of one Volt.'],
-
-  'calorie' : ['Fun Fact: a food calorie is the energy required to raise the temperature of one liter of water by one degree Celsius'],
 
   //' si' : [],
 
@@ -1046,10 +1001,6 @@ var prompts_and_responses = {
   //'free body diagram' : [],
 
   //'static' : [],
-
-  'dynamic' : ['In general, a \'dynamic\' system is used to denote a system that changes in time.'],
-
-  'flat' : ['Local flatness is a property of all continuous, smooth, manifolds and surfaces. It just means that close enough to the manifold, any curvature is negligible and objects in the space and the space itself follow the laws of Euclidean geometry.'],
 
   //'orthonormal basis' : [],
 
@@ -1065,10 +1016,6 @@ var prompts_and_responses = {
 
   //'flatland' : [],
 
-  'spacetime' : ['Fun Fact: the curvature of spacetime causes real shapes and objects to deviate from the standard laws of geometry. On the surface of the Earth, triangles\' interior angles sum to greater than 180 degrees, circles\' circumferences are smaller than 2π times their radius, spheres have volumes smaller than (4/3)πR^3.', 'A spacetime with positive curvature everywhere is CLOSED - moving in a single direction for long enough will return you to your starting place.'],
-
-  'space' : ['On a 1-to-10-billion scale, the Sun is the size of a grapefruit and the Earth is the size of the tip of a ballpoint pen 15 meters away.', 'On a 1-to-10-billion scale, the Sun is the size of a grapefruit and the Earth is the size of the tip of a ballpoint pen 15 meters away. Alpha Centauri, our closest stellar neighbor, is 2,500 miles away.', 'On a 1-to-10-billion scale, the Sun is the size of a grapefruit and the Earth is the size of the tip of a ballpoint pen 15 meters away. Alpha Centauri, our closest stellar neighbor, is 2,500 miles away. The Milky Way galaxy stretches all the way to the real Sun.'],
-
   //'time' : [],
 
   //'euclidean basis' : [],
@@ -1076,8 +1023,6 @@ var prompts_and_responses = {
   //'euclid' : [],
 
   //'imaginary' : [],
-
-  'model' : ['Roughly speaking, a \"model\" in physics is a mathematical framework or set of mathematical tools used to describe and predict the behaviour of different systems.', 'Roughly, a \"model\" in physics is a mathematical framework or set of mathematical tools used to describe and predict the behaviour of different systems. For example, almost every introductory physics course will cover \"projectile motion\" by (incorrectly) modelling the Earth\'s gravity as a constant 9.8 m/s^2 downwards.'],
 
   //'standard model' : [],
 
@@ -1091,8 +1036,6 @@ var prompts_and_responses = {
 
   //'accuracy' : [],
 
-  //'precision' : [],
-
-  'physics' : ['In nature, all physically meaningful quantities are either scalars, vectors, or tensors.', 'The entire universe is just tensor calculus.']
+  //'precision' : []
 };
 module.exports = {prompts_and_responses}; 
