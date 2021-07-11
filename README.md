@@ -2,11 +2,11 @@
 
 Repository for full documentation of the twitch chatbot physics_bot (see twitch.tv/physics_bot for more info)
 
-Bot's channel: www.twitch.tv/physics_bot
+Bot's channel: [www.twitch.tv/physics_bot]
 
-Info document: https://docs.google.com/document/d/1FzHYh8quqQYVad-XT_XulUq7H0gZRgOpaC15gfSg6co/edit?usp=sharing
+Info document: [https://docs.google.com/document/d/1FzHYh8quqQYVad-XT_XulUq7H0gZRgOpaC15gfSg6co/edit?usp=sharing]
 
-The main document in this repository, `factoids.js`, is a javascript file that contains all of the factoids and prompts that the bot uses to respond and talk in chat (excepting what is contained in the Info Document). Reading this document is a bit tricky without some way to systematically parse the data. There are basically two kinds of things contained in the document:
+The main document in this repository, `factoids.js`, is a JavaScript file that contains all of the factoids and prompts that the bot uses to respond and talk in chat (excepting what is contained in the Info Document). There are basically two kinds of things contained in the document:
 
 The first type of thing are the __prompts__: words and combinations of letters that, if read by the bot, have a chance of initiating a response. Many prompts are contained in the arrays in the beginning of the document (all the lines beginning with `const`): these are collections of prompts that all relate to the same topic, things like `star_tags` and `atom_tags`. 
 
