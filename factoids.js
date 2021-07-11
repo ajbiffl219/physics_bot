@@ -59,7 +59,7 @@ const diamag_tags = 'diamagn, '.concat(bfield_tags)
 
 var factoids = {
 
-    'All measurable quantities are either scalars, vectors, or tensors.' : 'nature, '.concat(math_tags),
+    'All physical quantities are either scalars, vectors, or tensors.' : 'nature, '.concat(math_tags),
 
     'The entire universe is just tensor calculus.' : 'universe, tensor, calculus, ',
 
